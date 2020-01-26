@@ -1,4 +1,4 @@
-version: '2'
+version: '1'
 services:
   python:
     image: bhargav6789/my-app:1.0.0
