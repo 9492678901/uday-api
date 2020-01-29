@@ -4,4 +4,4 @@ services:
     image: bhargav6789/my-app:1.0.0
     container_name: uday-app1
     ports:
-     - "8090:8070"
+     - "8090:8080"
