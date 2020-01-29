@@ -18,11 +18,7 @@ node{
       sh 'docker push bhargav6789/my-app:1.0.0'    
      }
     
-    stage('Container-creation'){     
-      def dockerRun = 'docker run -p 8090:8070 -d --name uday-app1 bhargav6789/my-app:1.0.0'
-	  sh "${dockerRun}"
-	 }
-	stage('Container-Deploy'){ 
+    	stage('Container-Deploy'){ 
 	   sh '/usr/local/bin/docker-compose up -d'
 	 
 }
