@@ -5,7 +5,7 @@ node{
     }
        
      stage('Build Docker Image'){
-	   sh 'sudo docker build -t bhargav6789/my-app:1.0.0 . '
+	   sh 'docker build -t bhargav6789/my-app:1.0.0 . '
          }	
          
     stage('Upload Image to DockerHub'){   
